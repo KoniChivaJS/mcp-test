@@ -1,0 +1,16 @@
+[
+  {
+    "id": "mock-server-1",
+    "name": "Analytics MCP Server",
+    "url": "http://localhost:3003/mcp",
+    "description": "Server for text analysis and data processing tools",
+    "isActive": true
+  },
+  {
+    "id": "mock-server-2",
+    "name": "Calculator MCP Server",
+    "url": "http://localhost:3004/mcp",
+    "description": "Server for mathematical operations",
+    "isActive": true
+  }
+]

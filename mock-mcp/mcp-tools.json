@@ -1,0 +1,72 @@
+{
+  "mock-server-1": [
+    {
+      "name": "text_analyzer",
+      "description": "Analyzes text and returns word count and sentiment",
+      "parameters": [
+        {
+          "name": "text",
+          "type": "string",
+          "description": "Text to analyze",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "sentiment_analysis",
+      "description": "Performs sentiment analysis on text",
+      "parameters": [
+        {
+          "name": "text",
+          "type": "string",
+          "description": "Text to analyze for sentiment",
+          "required": true
+        }
+      ]
+    }
+  ],
+  "mock-server-2": [
+    {
+      "name": "calculator",
+      "description": "Performs basic mathematical operations",
+      "parameters": [
+        {
+          "name": "operation",
+          "type": "string",
+          "description": "Operation to perform (add, subtract, multiply, divide, power)",
+          "required": true
+        },
+        {
+          "name": "a",
+          "type": "number",
+          "description": "First number",
+          "required": true
+        },
+        {
+          "name": "b",
+          "type": "number",
+          "description": "Second number",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "scientific_calculator",
+      "description": "Performs scientific calculations",
+      "parameters": [
+        {
+          "name": "function",
+          "type": "string",
+          "description": "Function to calculate (sin, cos, tan, log, sqrt)",
+          "required": true
+        },
+        {
+          "name": "value",
+          "type": "number",
+          "description": "Input value for the function",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
